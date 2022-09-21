@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ParkDoilScene.unity
+    guid: c7e48baaf41b20949ad097fccedb1d48
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 7b6aeb98e2035a444a88486efcbccf50
   m_configObjects: {}
