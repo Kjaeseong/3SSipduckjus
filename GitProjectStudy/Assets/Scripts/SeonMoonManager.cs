@@ -5,13 +5,14 @@ using UnityEngine;
 public class SeonMoonManager : MonoBehaviour
 {
     public GameObject SeonMoon;
+    public GameObject RaseUpSeonMoon;
     private GameObject[] SeonMoonPool = new GameObject[200];
 
     private int Count = 0;
 
     private void Start() 
     {
-        for(int i = 0; i < 200; i++)
+        for(int i = 0; i < 201; i++)
         {
             float randX = Random.Range(-4.5f, 4.5f);
             float randZ = Random.Range(-4.5f, 4.5f);
@@ -39,6 +40,22 @@ public class SeonMoonManager : MonoBehaviour
         {
             SeonMoonPool[Count].SetActive(false);
             Count--;
-        }       
+        }
+
+        RaseUp();
+               
     }
+
+    private void RaseUp()
+    {
+        if(Count >= 199)
+        {
+            RaseUpSeonMoon.SetActive(true);
+        }
+        else
+        {
+            RaseUpSeonMoon.SetActive(false);
+        }
+    }
+
 }

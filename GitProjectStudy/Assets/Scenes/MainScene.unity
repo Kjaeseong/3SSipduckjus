@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SeonMoon: {fileID: 7206049221244265597, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+  RaseUpSeonMoon: {fileID: 1793823908}
 --- !u!4 &975474573
 Transform:
   m_ObjectHideFlags: 0
@@ -342,8 +343,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185125452}
-  m_LocalRotation: {x: -0.14677776, y: 0.0020746172, z: -0.00030788116, w: -0.9891673}
-  m_LocalPosition: {x: 0.3760424, y: 1.291817, z: -5.9252076}
+  m_LocalRotation: {x: -0.025807641, y: -0.0009023601, z: 0.00002325626, w: -0.9996666}
+  m_LocalPosition: {x: 0.37604266, y: 1.2918216, z: -5.925206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -444,3 +445,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1793823908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7206049221244265597, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+  m_PrefabInstance: {fileID: 1923534360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1793823912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793823908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8658f60ae6b3aa4aa8ddfa9be04b038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1923534360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761165872142435, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7206049221244265597, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+      propertyPath: m_Name
+      value: RaseUpSeonMoon
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4331516507376420144, guid: 52601794ffd955447a3de5f79110c756, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 52601794ffd955447a3de5f79110c756, type: 3}
